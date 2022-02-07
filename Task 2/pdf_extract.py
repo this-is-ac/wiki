@@ -35,16 +35,16 @@ data = pd.read_csv("Data Engineer Task - Data Engineer Task.csv", header=None)
 
 websites = data.iloc[:, 0]
 
-PATH = "C:\\Users\\HP\\Downloads\\AI4Bharat\\files\\"
+PATH = "C:\\Users\\HP\\Downloads\\Task\\files\\"
 
 import json
 
 final_results = []  
 
 def get_content(filepath):
-    PATH = "C:\\Users\\HP\\Downloads\\AI4Bharat\\files\\"
-    TEMP = "C:\\Users\\HP\\Downloads\\AI4Bharat\\temp\\"
-    DEST = "C:\\Users\\HP\\Downloads\\AI4Bharat\\outputs\\"
+    PATH = "C:\\Users\\HP\\Downloads\\Task\\files\\"
+    TEMP = "C:\\Users\\HP\\Downloads\\Task\\temp\\"
+    DEST = "C:\\Users\\HP\\Downloads\\Task\\outputs\\"
 
     if args.method == "tesseract":
         if not os.path.exists(TEMP):
