@@ -22,11 +22,11 @@ parser.add_argument("-m", "--method", help = "Method for text extraction : tesse
 args = parser.parse_args()
 
 
-PATH = "C:\\Users\\HP\\Downloads\\AI4Bharat\\files\\"
+PATH = "C:\\Users\\HP\\Downloads\\Task\\files\\"
 
-TEMP = "C:\\Users\\HP\\Downloads\\AI4Bharat\\temp\\"
+TEMP = "C:\\Users\\HP\\Downloads\\Task\\temp\\"
 
-DEST = "C:\\Users\\HP\\Downloads\\AI4Bharat\\outputs\\"
+DEST = "C:\\Users\\HP\\Downloads\\Task\\outputs\\"
 
 if not os.path.exists(DEST):
     os.makedirs(DEST)
