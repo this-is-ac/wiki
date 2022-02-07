@@ -35,7 +35,7 @@ data = pd.read_csv("Data Engineer Task - Data Engineer Task.csv", header=None)
 
 websites = data.iloc[:, 0]
 
-PATH = "C:\\Users\\HP\\Downloads\\AI4Bharat\\files\\"
+PATH = "C:\\Users\\HP\\Downloads\\Task\\files\\"
 
 import json
 
