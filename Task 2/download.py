@@ -18,7 +18,7 @@ import os
 import urllib
 from urllib.parse import urljoin
 
-PATH = "C:\\Users\\HP\\Downloads\\AI4Bharat\\files\\"
+PATH = "C:\\Users\\HP\\Downloads\\Task\\files\\"
 
 for i, url in enumerate(websites):
     if url[-4:] == '.pdf':
